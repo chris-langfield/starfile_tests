@@ -1,6 +1,6 @@
 # starfile_tests
 
-#### DRAFT bug report: Unexpected behavior with single-row blocks following other blocks in a STAR file
+#### Unexpected behavior with single-row blocks following other blocks in a STAR file
 
 Hi `starfile` authors, we are planning to use your library in our package. When building some tests, we encountered the following issue. We're wondering whether this is a bug or whether we are possibly using the library wrong. Thanks!
 
