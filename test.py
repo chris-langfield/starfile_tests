@@ -35,6 +35,8 @@ for f in files:
 
 print()
 
+os.system('rm -f saved_*.star')
+
 print('GEMMI comparison w/ same files')
 print('---------------------------')
 for f in files:
@@ -86,3 +88,5 @@ for f in files:
                 assert(item.pair is None)
     print('success!')
     print()
+
+os.system('rm -f gemmi/saved_*')
